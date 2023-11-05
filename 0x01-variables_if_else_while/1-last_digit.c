@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
-
 #include <stdio.h>
 /**
- * main - the main function
+ * main - assigns random number to n
  *
- * return - return the function to 0
+ * Return - Return 0
  */
 int main(void)
 {
@@ -17,13 +16,13 @@ int main(void)
 	    string = n % 10;
 	if (string > 5)
 	{
-		printf("last digit of %d is %d and greater than 5", n, string);
+		printf("last digit of %d is %d and is greater than 5", n, string);
 	}
 	else if (string < 6 && string != 0)
 	{
-		printf("last digit of %d is %d and less than 6 and not 0", n, string);
+		printf("last digit of %d is %d and is less than 6 and not 0", n, string);
 	}
 	else
-		printf("last digit of %d is %d and 0", n, string);
+		printf("last digit of %d is %d and is 0", n, string);
 	return (0);
 }
