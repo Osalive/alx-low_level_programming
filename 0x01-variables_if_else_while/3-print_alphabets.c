@@ -17,7 +17,7 @@ char upper;
 putchar(lower);
 }
 
-	for (upper = 'A'; upper <= 'Z'; upper++)
+		for (upper = 'A'; upper <= 'Z'; upper++)
 {
 putchar(upper);
 }
