@@ -7,13 +7,15 @@
  * return : 0
  */
 
-int main() {
-	char letters;
-    
+int main(void)
+{
+char letters;
+
 	for (letters = 'a'; letters <= 'z'; letters++)
 	{
 	putchar(letters);   
 	}
 
-    return 0;
+	putchar('\n');
+    return (0);
 }
