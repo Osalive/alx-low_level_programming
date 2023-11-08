@@ -4,7 +4,7 @@
  * main - the main function
  * for loop - to list the letters in alphabetical order
  * putchar - prints out what is inside letters
- * return: always 0
+ * Return: always 0 (success)
  */
 
 int main(void)
