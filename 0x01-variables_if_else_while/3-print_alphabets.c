@@ -17,12 +17,12 @@ char upper;
 putchar(lower);
 }
 
-putchar('\n');
-
 	for (upper = 'A'; upper <= 'Z'; upper++)
 {
 putchar(upper);
 }
 
-    return (0);
+putchar('\n');
+
+return (0);
 }
