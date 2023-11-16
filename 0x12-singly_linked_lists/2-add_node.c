@@ -5,9 +5,9 @@
  *@head: pointer to the head of the list
  *@str: string to be added
  *
- * Return: returns the address to the new element 
+ * Return: returns the address to the new element or NULL
  * if failed
- */
+*/
 
 /*
 1. Allocate memory for a new node.
@@ -19,7 +19,6 @@
 7. Set the head of the list to point to the new node.
 8. Return a pointer to the new node.
 */
- 
 list_t *add_node(list_t **head, const char *str)
 {
 	char *dup;
